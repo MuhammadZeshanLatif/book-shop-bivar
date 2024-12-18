@@ -46,7 +46,7 @@ header h1 span {
 }
 
 .section {
-    padding: 3rem 1rem;
+    padding: 3rem 0 0 0;
     text-align: center;
 }
 
@@ -153,7 +153,6 @@ button.next {
 .map iframe {
     border-radius: 10px;
     width: 100%;
-    max-width: 800px;
     margin: 0 auto;
     border: none;
 }
@@ -164,7 +163,7 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem 0;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 /* Responsive */
